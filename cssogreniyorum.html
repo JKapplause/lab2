@@ -1,0 +1,301 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+
+    ul {
+        list-style-type: none;
+        margin: -10px;
+        padding: -100px;
+        border-radius: 10px;
+        overflow: auto;
+        background-color: #eeeeee;
+        font-family: "Californian FB";
+        font-size: small;
+    }
+    li {
+        float:left;
+    }
+    li a, .dropbtn {
+        display: inline-block;
+        color: #B6B6B6 ;
+        text-align:center;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+    li a:hover, .dropbtn:hover .dropbtn {
+        background-color: #FFFFFF;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position:absolute;
+        background-color:#eeeeee;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: #bbbbb;
+        padding: 12px 16px;
+        text-decoration:none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+        body {
+            background: #FFFFFF;
+            margin: 40px;
+            font-family:"small t";
+            font-size: 11px;
+            color: #bbbbbb;
+
+        }
+
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+h1{
+    text-decoration-color: black;
+    text-align: center;
+}
+        h3{
+
+            text-align: center;
+            text-decoration-color: #bbbbbb;
+
+        }
+#h3 c {
+    font-size:small ;
+    color : #bbbbbb;
+    margin: 3px;
+    border: none;
+    padding: 5px;
+    background-color: #eeeeee;
+}
+        #sidebar {
+            width: 200px;
+            float: right;
+        }
+        #verticle{
+            width: 4px;
+            height: 750px;
+            background-color: #eeeeee;
+            position: absolute;
+            right: 20%;
+            margin-right: 15px;
+        }
+        #verticle2 {
+            width: 4px;
+            height: 750px;
+            background-color: #eeeeee;
+            position: absolute;
+            top: 300px;
+            left 10%;
+            margin-left: 450px;
+        }
+
+#login {
+    position: absolute;
+    right: 300px;
+    top: 330px;
+}
+#search {
+    position: absolute;
+    right: 300px;
+    top: 540px;
+}
+#input {
+    position: absolute;
+    right: 180px;
+    top: 580px;
+    -webkit-border-radius: 10px;
+}
+
+
+
+hr.line {
+    position: center;
+    right: 300px;
+    top: 400px;
+    border-top: 1px dashed #bbbbbb;
+
+}
+
+hr.line1 {
+    position: relative;
+    right: 10px;
+    top: 150px;
+    border-top: 1px dashed #bbbbbb;
+}
+
+
+input[type=text], input[type=password] {
+    width: 8%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    position: relative;
+    left: 1380px;
+    top: -260px;
+    display: inline-block;
+    border: 1px solid #bbbbbb;
+    box-sizing: border-box;
+    font-family: "small t";
+}
+
+button {
+    background-color: #B6B6B6;
+    color: white;
+    position: relative;
+    left: 1243px;
+    top: -220px;
+    padding: 10px 10px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    font-family: "small t";
+}
+
+.checkbox {
+    position: relative;
+    left: 1380px;
+    top: -220px;
+}
+
+h3.a {
+    list-style-type: circle;
+}
+
+#left {
+    font-family: "Cambria Math";
+    color: #bbbbbb;
+    float left;
+    width: 300px;
+
+}
+
+
+#menu {
+    text-align:right;
+}
+        </style>
+</head>
+<body text="black">
+
+<center>
+<img src="outputs/stone.png" width="120" height="120">
+</center>
+<h1>
+    <font size="10">CSS</font>
+
+</h1>
+<ul>
+
+    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn"><h3>InternetYapısı ve Css</h3></a>
+    <div class="dropdown-content">
+        <a href="http://www.pitstop.com.tr/css-nedir/">Icerik Katmanı (HTML)</a>
+        <a href="http://www.pitstop.com.tr/css-nedir/">Gorsellestirme Katmanı(CSS)</a>
+        <a href="http://www.pitstop.com.tr/css-nedir/">Etkilesim Katmanı(JavaScript)</a>
+
+    <li style="float: right"><a class="active" href="#Hakkında"><h3>Hakkında</h3></a> </li>
+
+    <li class ="dropdown"><a href="javascript:void(0)" class="dropbtn"><h3>Neden Css ?</h3></a>
+    <div class="dropdown-content">
+        <a href="http://www.pitstop.com.tr/css-nedir/">Guncelleme Kolaylıgı</a>
+        <a href="http://www.pitstop.com.tr/css-nedir/">Veri Trafigi Tasarrufu</a>
+        <a href="http://www.pitstop.com.tr/css-nedir/">Icerik Esnekligi</a>
+        <a href="http://www.pitstop.com.tr/css-nedir/">Guncel Kodlama Stratejilerine Imkan Saglama</a>
+
+
+    </div>
+    </li>
+    <li><a href="https://www.w3schools.com/css/"><h3>CSS Kod Ornekleri</h3></a> </li>
+    <li><a href ="#soru platformu"><h3>Soru Platformu</h3></a></li>
+    <li><a href=""><h3>Yardım</h3></a> </li>
+    </div>
+    </li>
+
+    <div id ="verticle"></div>
+
+
+</ul>
+    <center>
+<h3>
+    <br><br>
+    CSS (Cascading Style Sheets), HTML ve JavaScript gibi, internet sayfalarının kodlanmasında<br> kullanılan 3 ana teknolojiden biridir.
+
+    CSS, bir HTML sayfasının nasıl görüntüleneceğini tarif eder.<br> Bu tarifin içinde sayfadaki başlık, metin, resim, video
+    gibi öğelerin görsel özelliklerinin yanı sıra,<br> sayfa yerleşimi ve bu yerleşimin farklı ekranlarda,
+    cihazlarda,ekran, kağıt ya da diğer<br> ortamlarda nasıl değişeceği bilgisi de bulunur.<br>
+</h3>
+
+
+    </center>
+</h3>
+
+<h3 style="font-size: large">  <br style="font-family:'Cambria Math'"> CSS Tarihcesi Hakkında Bilgi</br></h3>
+    <h3>CSS ilk kez 10 Ekim 1994 tarihinde, CERN’de Tim Barners-Lee ile birlikte çalışmakta olan<br> Hakon Wium Lie tarafından önerilmiştir.
+    Bunun ardından W3C (Dünya Çapındaki Ağ Birliği), çeşitli<br> forum ve eposta listelerinde yapılan birkaç farklı stil sayfası
+    dili taslağını da göz önünde<br> bulundurarak, 1996 yılında ilk CSS önerisini sunmuştur (CSS1).<br>
+
+    İnternet kullanımının yaygınlaşması ve kullanım amaçl1arının çeşitlenmesiyle doğan yeni <br></br>ihtiyaçlar, W3C’nin 12 Mayıs 1998’de CSS2
+    önerisini sunmasıyla sonuçlanmıştır.<br>
+    Bunun hemen ardından çalışmalarına başlanan CSS3 ise, tarayıcı desteği artmış olmasına rağmen<br> 2016’da halen geliştirilme aşamasındadır.<br>
+</h3>
+
+
+
+<div id ="login">
+
+    <h2 style="font-family: "Consolas", "Courier New"">Log In</h2>
+    <hr class = "line">
+    <hr class="line1">
+</div>
+<div class="container">
+
+    <label for="uname"><b></b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+    <label for="psw"><b></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label>
+    <button type="submit">Login</button>
+    </label>
+
+    <div class="checkbox">
+    <label>
+
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+
+    </label>
+    </div>
+
+    <div class="container" style="background-color: #bbbbbb">
+    </div>
+</div>
+
+<div id ="search">
+    <h2 style=font-family:Consolas>Search</h2>
+</div>
+
+<div id="input">
+    <input type="search" placeholder="Search"name="input" required>
+</div>
+<div id = "verticle2">
+
+</body>
+</html>
